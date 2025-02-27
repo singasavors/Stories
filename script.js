@@ -34,7 +34,7 @@ function showNextParagraph() {
         newParagraph.innerHTML = paragraphs[currentParagraph];
         storyDiv.appendChild(newParagraph);
 
-        // Smooth fade-in effect
+        // Smooth fade-in and slide animation
         setTimeout(() => {
             newParagraph.style.display = "block";
             newParagraph.style.opacity = 1;
