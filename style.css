@@ -1,73 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-
+/* General Styles */
 body {
-    font-family: 'Orbitron', sans-serif;
-    background: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
 }
 
-.story-container {
-    width: 85%;
-    max-width: 850px;
-    margin: auto;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
-    border: 2px solid red;
-}
-
-h1.neon-title {
-    font-size: 2em;
+/* Header */
+header {
+    background-color: #d9534f;
     color: white;
-    text-shadow: 0 0 15px red, 0 0 30px red;
-    animation: neon-glow 1.5s infinite alternate;
+    padding: 20px;
 }
 
-/* Paragraph Styling */
-#story p {
-    display: none;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 1s ease-in-out, transform 0.6s ease-in-out;
-    padding: 15px;
-    background: black;
-    border-left: 5px solid red;
+/* Sections */
+section {
+    padding: 40px 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Fraud Strategy */
+.fraud-strategy ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fraud-strategy li {
+    background: #fff3cd;
+    margin: 10px 0;
+    padding: 10px;
     border-radius: 5px;
-    margin: 15px 0;
-    font-size: 1.2em;
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
-}
-
-/* Button Styling */
-.controls {
-    margin-top: 20px;
-}
-
-#next-btn {
-    padding: 12px 25px;
     font-size: 18px;
     font-weight: bold;
-    border: 2px solid red;
+}
+
+/* Report Section */
+.steps {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: #d9534f;
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
-    background: black;
-    color: red;
-    cursor: pointer;
-    box-shadow: 0 0 15px red, 0 0 30px rgba(255, 0, 0, 0.3);
-    transition: all 0.3s ease-in-out;
+    font-weight: bold;
 }
 
-#next-btn:hover {
-    background: red;
-    color: black;
-    box-shadow: 0 0 20px white, 0 0 40px red;
+.button:hover {
+    background: #c9302c;
 }
 
-/* Neon Animation for Title */
-@keyframes neon-glow {
-    0% { text-shadow: 0 0 10px red, 0 0 20px red; }
-    100% { text-shadow: 0 0 20px red, 0 0 40px red; }
+/* Footer */
+footer {
+    background: #343a40;
+    color: white;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 }
