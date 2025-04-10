@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terms Formatting</title>
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    width: 720px;
+    margin: 40px auto;
+    color: #000;
+    line-height: 1.45;
+  }
+
+  h3 {
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 12px;
+    color: #000;
+  }
+
+  ol {
+    counter-reset: item;
+    padding-left: 22px;
+    margin: 0;
+  }
+
+  ol > li {
+    list-style: none;
+    margin-bottom: 6px;
+  }
+
+  ol > li::before {
+    counter-increment: item;
+    content: counter(item) ".";
+    display: inline-block;
+    width: 16px;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: 10px;
+    padding-left: 0;
+  }
+
+  ul li::before {
+    content: "-";
+    display: inline-block;
+    width: 10px;
+    margin-left: -10px;
+  }
+
+  ul li {
+    padding-left: 0;
+    margin: 2px 0;
+  }
+
+  strong {
+    font-weight: bold;
+    color: #000;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+  <h3>Terms and Conditions</h3>
+  <ol>
+    <li>
+      This letter is valid for redemption <strong>01 December 2024 to 30 November 2025 from Mondays to Sundays except super peak period.</strong>
+      Stay dates and hotels availability will be subject to government measures and hotel operations.
+    </li>
+    <li>
+      This package entitles you to:
+      <ul>
+        <li>1 nights stay in Ocean Suite</li>
+        <li>Daily Breakfast for 2 Adults</li>
+      </ul>
+    </li>
+    <li>Advance reservation of at least 7 working days is required and confirmation is subject to availability.</li>
+    <li>For room reservation, please email to <strong>corporate@RWSentosa.com</strong> and quote "<strong>DBS Safra Campaign</strong>" and Ref No. of this voucher.</li>
+    <li>Only the original redemption letter is accepted. Kindly present this original letter together with the original copy of DBS cover letter at <strong>Hotel Front Desk</strong> for check-in. The letter will also be subjected to verification at time of presentation.</li>
+    <li>Redemption letter is non-transferrable; verification will be required during check-in.</li>
+    <li>Extension of redemption validity period is not permissible.</li>
+    <li>No partial redemption is allowed.</li>
+    <li>This redemption letter is not exchangeable for cash and cannot be used in conjunction with any promotion.</li>
+    <li>This redemption letter is neither replaceable nor refundable whether in whole or in part.</li>
+    <li>This redemption letter is not for sale or retail.</li>
+    <li>Resorts World Sentosa reserves the right not to accept any redemption letter that has or appears to have been forged, damaged, defaced or otherwise tampered.</li>
+    <li>Resorts World Sentosa reserves the right to reject acceptance of this letter subject to capacity.</li>
+    <li>Resorts World Sentosa will not accept responsibility for claims, demand, losses, costs or expenses or liability of any kind whatsoever.</li>
+    <li>Resorts World Sentosa reserves the right to change the Terms and Conditions at any time without prior notice.</li>
+  </ol>
+</body>
+</html>
