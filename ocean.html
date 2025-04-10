@@ -3,22 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Terms Formatting</title>
-  <style>
+<style>
   body {
     font-family: Arial, sans-serif;
-    font-size: 10px;
-    width: 720px;
+    font-size: 12px;
+    width: 862px;
+    height: 1010px;
     margin: 40px auto;
+    padding: 40px;
     color: #000;
     line-height: 1.45;
+    background: #fff;
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin: 12px 0 6px;
   }
 
   h3 {
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 14px;
+    margin: 20px 0 10px;
     text-decoration: underline;
-    margin-bottom: 12px;
-    color: #000;
+  }
+
+  .terms {
+    margin-top: 10px;
   }
 
   ol {
@@ -30,6 +54,7 @@
   ol > li {
     list-style: none;
     margin-bottom: 6px;
+    text-align: justify;
   }
 
   ol > li::before {
@@ -40,32 +65,43 @@
     font-weight: bold;
   }
 
-  ul {
-    list-style-type: none;
-    margin-left: 10px;
-    padding-left: 0;
+  .footer-note {
+    margin-top: 30px;
+    font-size: 11px;
   }
 
-  ul li::before {
-    content: "-";
-    display: inline-block;
-    width: 10px;
-    margin-left: -10px;
+  .system-note {
+    font-size: 10px;
+    margin-top: 50px;
+    border-top: 1px solid #000;
+    padding-top: 10px;
   }
 
-  ul li {
-    padding-left: 0;
-    margin: 2px 0;
-  }
-
-  strong {
+  .highlight {
     font-weight: bold;
-    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 20px 0 10px;
+  }
+
+  .contact {
+    font-size: 12px;
+    margin-top: 6px;
+  }
+
+  .box {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 20px;
   }
 
   a {
     color: #000;
     text-decoration: none;
+  }
+
+  strong {
+    font-weight: bold;
   }
 </style>
 </head>
@@ -79,8 +115,8 @@
     <li>
       This package entitles you to:
       <ul>
-        <li>1 nights stay in Ocean Suite</li>
-        <li>Daily Breakfast for 2 Adults</li>
+        <li><strong>1 nights stay in Ocean Suite</strong></li>
+        <li><strong>Daily Breakfast for 2 Adults</strong></li>
       </ul>
     </li>
     <li>Advance reservation of at least 7 working days is required and confirmation is subject to availability.</li>
