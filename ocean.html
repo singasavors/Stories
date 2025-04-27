@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,82 +10,198 @@
       padding: 0;
       background: #eee;
       font-family: Arial, sans-serif;
-    }.letter {
-  background: white;
-  width: 794px;
-  height: 1123px;
-  margin: 20px auto;
-  padding: 48px;
-  box-sizing: border-box;
-  color: #111;
-  font-size: 9px;
-  line-height: 1.35;
-  box-shadow: 0 0 12px rgba(0,0,0,0.1);
-}
+    }
 
-h3 {
-  font-size: 10px;
-  font-weight: bold;
-  text-decoration: underline;
-  margin-bottom: 10px;
-}
+    .letter {
+      background: white;
+      width: 794px;
+      height: 1123px;
+      margin: 20px auto;
+      padding: 40px;
+      box-sizing: border-box;
+      color: #000; /* Darker text color */
+      font-size: 11px;
+      line-height: 1.5;
+      font-weight: 600; /* Base text slightly bold */
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      position: relative;
+    }
 
-ol {
-  counter-reset: item;
-  padding-left: 0;
-  margin-left: 0;
-}
+    .top-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-ol > li {
-  list-style: none;
-  counter-increment: item;
-  margin-bottom: 4px;
-  text-indent: -22px;
-  padding-left: 22px;
-}
+    .logo {
+      height: 50px;
+    }
 
-ol > li::before {
-  content: counter(item) ".";
-  font-weight: bold;
-  display: inline-block;
-  width: 20px;
-  text-align: right;
-  margin-right: 2px;
-}
+    .ref {
+      text-align: right;
+      font-size: 11px;
+      font-weight: 600;
+    }
 
-.footer {
-  margin-top: 24px;
-}
+    .red-bar {
+      background: #d00000;
+      height: 4px;
+      margin: 10px 0 30px 0;
+    }
 
-  </style>
+    h1 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 20px 0 10px 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    ol {
+      counter-reset: item;
+      padding-left: 0;
+      margin-left: 0;
+    }
+
+    ol > li {
+      list-style: none;
+      counter-increment: item;
+      margin-bottom: 8px;
+      text-indent: -22px;
+      padding-left: 22px;
+      font-size: 11px;
+      font-weight: 600; /* Make list items darker and thicker */
+    }
+
+    ol > li::before {
+      content: counter(item) ".";
+      font-weight: bold;
+      display: inline-block;
+      width: 20px;
+      text-align: right;
+      margin-right: 2px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .system-note {
+      margin-top: 50px;
+      border-top: 1px solid #999;
+      padding-top: 10px;
+      font-size: 10px;
+      font-weight: 600;
+    }
+
+    .official-use {
+      margin-top: 10px;
+      font-size: 10px;
+      border: 1px solid #111;
+      padding: 8px;
+      font-weight: 600;
+    }
+
+    .footer-graphic {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 10px;
+      color: #d00000;
+      font-weight: 700;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .barcode {
+      width: 150px;
+      height: 40px;
+      background: #ccc;
+      display: inline-block;
+      margin-top: 10px;
+    }
+</style>
 </head>
 <body>
   <div class="letter">
-    <h3>Terms and Conditions</h3>
-    <ol>
-      <li><b>This letter is valid for redemption from 01 December 2024 to 30 November 2025 from Mondays to Sundays except peak and super peak period.Stay dates and hotels availability will be subject to government measures and hotel operations.</b></li>
-      <li><b>This package entitles you to:</b><br>
-        - <b>1 nights stay in Ocean Suites</b><br>
-        - <b>Daily breakfast for 2 adults</b></li>
-      <li><b>Advance reservation of at least 7 working days is required and confirmation is subject to availability</b>.</li>
-      <li><b>For room reservation, please email to <a href="mailto:enquiries@rwsentosa.com">enquiries@rwsentosa.com</a> and quote "Denka Virtual Dinner & Dance 2024" and Ref No of this voucher.</b></li>
-      <li>Only the original redemption letter is accepted. Kindly present the original letter at <b>Hotel Front Desk</b> for check-in. The letter will also be subjected to verification at time of presentation.</li>
-      <li>Extension of redemption validity period is not permissible.</li>
-      <li>No partial redemption is allowed.</li>
-      <li>This redemption letter is not exchangeable for cash and cannot be used in conjunction with any promotion.</li>
-      <li>This redemption letter is neither replaceable nor refundable whether in whole or in part.</li>
-      <li>This redemption letter is not for sale or retail.</li>
-      <li>In the event of No Show, this redemption letter will be deemed forfeited.</li>
-      <li>Resorts World Sentosa reserves the right not to accept any redemption letter that have or appear to have been forged, damaged, defaced or otherwise tampered.</li>
-      <li>Resorts World Sentosa reserves the right to reject acceptance of this letter subject to capacity.</li>
-      <li>Resorts World Sentosa will not accept responsibility for claims, demand, losses, costs or expenses or liability of any kind whatsoever.</li>
-      <li>Resorts World Sentosa reserves the right to change the Terms and Conditions at any time without prior notice.</li>
-    </ol><div class="footer">
-  <p>We look forward to welcoming you as our guest at Resorts World Sentosa!<br>
-  For and on Behalf of<br>
-  <b>RESORTS WORLD SENTOSA PTE LTD</b></p>
-</div>
+    <div class="top-section">
+      <img src="https://singasavors.github.io/Stories/rwslogo.png" alt="Resorts World Sentosa Logo" class="logo">
+      <div class="ref">
+        Date: 31-Dec-2024<br>
+        Ref No: RWS22/00005171
+        <div class="barcode"></div>
+      </div>
+    </div>
 
+    <div class="red-bar"></div>
+
+    <h1>CONGRATULATIONS</h1>
+    <h2>THIS LETTER ENTITLES YOU TO<br>2D1N STAY AT OCEAN SUITES<br>AT RESORTS WORLD™ SENTOSA</h2>
+
+    <h3>Terms and Conditions</h3>
+<ol>
+  <li><strong>This letter is valid for redemption from 01 January 2024 to 31 December 2025 from Mondays to Sundays except peak and super peak periods.</strong> Stay dates and hotel availability are subject to government measures and hotel operations.</li>
+  <li><strong>This package entitles you to:</strong><br>
+    - 1 night stay in Ocean Suites<br>
+    - Daily breakfast for 2 adults<br>
+    - $200 worth of RWS dining vouchers<br>
+    - 2 x Adult Adventure Cove Waterpark Tickets
+  </li>
+  <li><strong>Advance reservation of at least 7 working days is required and confirmation is subject to availability.</strong></li>
+  <li><strong>For room reservation, please email <a href="mailto:enquiries@rwsentosa.com">enquiries@rwsentosa.com</a> and quote "Joyous Giveaway Lucky Draw" and the Ref No of this voucher. Redemption is completed via email. No need to bring the original letter to the hotel.</strong></li>
+  <li><strong>No verification will be required at the time of stay or check-in.</strong></li>
+  <li>Extension of redemption validity period is not permissible.</li>
+  <li>No partial redemption is allowed.</li>
+  <li><strong>This redemption letter is transferable and can be exchanged for cash.</strong></li>
+  <li>This redemption letter is neither replaceable nor refundable whether in whole or in part after use.</li>
+  <li>This redemption letter is not for unauthorized sale or unauthorized resale.</li>
+  <li>In the event of No Show, this redemption letter will be deemed forfeited.</li>
+  <li>Resorts World Sentosa reserves the right not to accept any redemption letter that has or appears to have been forged, damaged, defaced, or otherwise tampered with.</li>
+  <li>Resorts World Sentosa reserves the right to reject acceptance of this letter subject to capacity limits.</li>
+  <li>Resorts World Sentosa will not accept responsibility for claims, demands, losses, costs, expenses, or liability of any kind whatsoever.</li>
+  <li>Resorts World Sentosa reserves the right to change the Terms and Conditions at any time without prior notice.</li>
+</ol>
+
+    <div class="footer">
+      We look forward to welcoming you as our guest at Resorts World Sentosa!<br><br>
+      For and on Behalf of<br>
+      <b>RESORTS WORLD SENTOSA PTE LTD</b>
+    </div>
+
+    <div class="system-note">
+      <b>This is a system generated letter and no signature is required.</b>
+      <div class="official-use">
+        For Official Use Only:<br><br>
+        Company Name: Resorts World Sentosa<br>
+        Campaign Name: Joyous Giveaway Lucky Draw<br>
+        FOP: Cheque<br>
+        Note: Only the ORIGINAL COPY is considered valid
+      </div>
+    </div>
+
+    <div class="footer-graphic">
+      Moments to Remember | rwssentosa.com
+    </div>
   </div>
 </body>
 </html>
